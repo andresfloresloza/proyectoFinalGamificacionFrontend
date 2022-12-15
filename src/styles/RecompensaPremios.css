@@ -1,0 +1,41 @@
+.contenedor1,
+.contenedorRecompensas {
+  background-color: black;
+  opacity: 0.95;
+  width: 85%;
+  height: 45em;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+.contenedor1 {
+  box-shadow: 0 0.188em 1.55em rgb(37, 37, 37);
+  flex-direction: column;
+}
+.contenedorRecompensas {
+  width: auto;
+  flex-direction: row;
+}
+.containerPremios {
+  width: 100%;
+  text-align: center;
+}
+.premios {
+  width: 45%;
+  margin-bottom: 3rem;
+}
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  margin-top: 2rem;
+}
+
+.descripcion {
+  font-size: 25px;
+  color: white;
+  font-weight: normal;
+}

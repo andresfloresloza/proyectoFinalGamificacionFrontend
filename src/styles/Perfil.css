@@ -1,0 +1,127 @@
+.contenedorPerfil {
+  background-color: black;
+  opacity: 0.95;
+  width: 41em;
+  height: 50em;
+  position: relative;
+  box-shadow: 0 0.188em 1.55em rgb(37, 37, 37);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.contenedorInput {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.contenedorSecundarioInput {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.botonEditar,
+.botonEditar2,
+.botonEditar3 {
+  border: none;
+  margin-top: -1.8rem;
+  margin-left: -3rem;
+}
+.botonAceptar {
+  margin-top: -1.8rem;
+  margin-left: 0.5rem;
+  border: none;
+}
+.botonCancelar {
+  border: none;
+  margin-top: -1.8rem;
+  margin-left: -5rem;
+}
+
+.input,
+.inputNombre,
+.inputFecha,
+.inputTelefono {
+  border: none;
+  background-color: white;
+  height: 2.3em;
+  width: 80%;
+  min-width: 50%;
+  border-radius: 2em;
+  text-align: start;
+  font-size: 25px;
+  padding-left: 1.2em;
+  margin-bottom: 1em;
+}
+
+.inputContainer {
+  width: 80%;
+  margin-top: 0.5rem;
+  border: none;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.inputContainer2 {
+  width: 80%;
+  margin-top: 0.8rem;
+  border: none;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+label:focus {
+  outline-color: rgb (32, 177, 255);
+}
+
+.contenedorRanking {
+  background-color: black;
+  opacity: 0.95;
+  width: 65em;
+  height: 27.5em;
+  position: relative;
+  box-shadow: 0 0.188em 1.55em rgb(37, 37, 37);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+}
+
+.contenedorPremios,
+.contenedorPremios2 {
+  background-color: black;
+  opacity: 0.95;
+  width: 65em;
+  height: 17em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contenedorPremios {
+  box-shadow: 0 0.188em 1.55em rgb(37, 37, 37);
+  flex-direction: column;
+}
+
+.contenedorPremios2 {
+  width: auto;
+  flex-direction: row;
+}
+
+.simbolos_patrios1 {
+  width: 100%;
+  text-align: center;
+}
+.simbolos {
+  width: 25%;
+  margin-bottom: 0.5rem;
+}
+.tituloRecompensa {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}

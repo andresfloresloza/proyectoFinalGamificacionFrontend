@@ -1,0 +1,90 @@
+.contenedorMensaje {
+  background-color: black;
+  opacity: 0.95;
+  width: 65%;
+  height: 45em;
+  position: relative;
+  box-shadow: 0 0.188em 1.55em rgb(37, 37, 37);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.containerTable {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  text-align: center;
+  border: none;
+}
+.contenedorImagen {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tituloRanking {
+  width: 100%;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.simbolos_patrios {
+  margin-top: -3rem;
+  text-align: center;
+}
+.simbolos_patrios_1 {
+  margin-top: -2rem;
+  margin-left: 3rem;
+}
+.icono_jugador {
+  width: 4%;
+  border-radius: 2em;
+  margin-top: -1rem;
+}
+
+.simbolo {
+  width: 30%;
+  height: 30%;
+}
+.simbolo3 {
+  width: 70%;
+  height: 70%;
+}
+table {
+  margin-top: -1rem;
+  background-color: white;
+}
+.fila {
+  text-align: start;
+  margin-left: 2.5rem;
+  display: flex;
+  align-items: center;
+  margin-top: 0rem;
+  margin-bottom: -1rem;
+}
+.fila2 {
+  text-align: start;
+  display: flex;
+  align-items: center;
+  margin-top: 0rem;
+  margin-bottom: -1rem;
+}
+.nombre {
+  width: 100%;
+  font-size: 18px;
+  font-weight: normal;
+  color: black;
+  margin-left: 4rem;
+  margin-top: 0.5rem;
+}
+.nombre2 {
+  width: 100%;
+  font-size: 18px;
+  font-weight: normal;
+  color: black;
+  margin-top: 0.5rem;
+  text-align: center;
+}

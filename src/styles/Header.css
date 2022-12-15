@@ -1,0 +1,23 @@
+.icono-menu {
+  height: 15%;
+  width: 25%;
+  margin-left: 15px;
+  background-color: black;
+}
+
+.navbar_principal {
+  background-color: black;
+}
+
+.nav-item .nav-link {
+  width: 180px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-left: solid white;
+}
+
+.nav-item .nav-link:hover {
+  color: red;
+}
